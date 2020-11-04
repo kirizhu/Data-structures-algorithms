@@ -8,3 +8,13 @@ const compressBoxesTwice = (boxes, boxes 2) => {
 };
 //O(a+b)
 // Apply rule 3
+const compressBoxesTwice2 = (boxes, boxes 2) => {
+  boxes.forEach((fbox) => {
+    boxes2.forEach((sbox) => {
+      console.log(fbox, sbox);
+    });
+  });
+
+};
+//O(a*b)
+// Apply rule 3
