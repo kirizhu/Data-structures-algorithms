@@ -9,9 +9,6 @@ const arr3 = ['b', 'g', 'k', 'l'];
 const arr4 = ['f', 'h', 'i', 'g'];
 // true
 
-// 2 params = arrays - no size limit
-// returns true/false
-
 const hasCommonItems = (arr1, arr2) => {
   for (let i = 0; i < arr1.length; i++) {
     for (let j = 0; j < arr2.length; j++) {
@@ -25,8 +22,7 @@ const hasCommonItems = (arr1, arr2) => {
   return false;
 };
 hasCommonItems(arr3, arr4);
-// O(a*b) quadratic
-// O(1) Space complexity
+// O(a*b) Quadratic Time, O(1) Space Complexity
 
 const hasCommonItems2 = (arr1, arr2) => {
   let map = {};
@@ -47,8 +43,7 @@ const hasCommonItems2 = (arr1, arr2) => {
 };
 hasCommonItems2(arr1, arr2);
 
-//O(a+b) linear
-//O(a) Space complexity
+//O(a+b) Linear Time, O(a) Space Complexity
 
 const hasCommonItems3 = (arr1, arr2) => {
   return arr1.some((item) => arr2.includes(item))
@@ -56,4 +51,4 @@ const hasCommonItems3 = (arr1, arr2) => {
     : console.log(false) && false;
 };
 hasCommonItems3(arr3, arr4);
-// O(?)
+// More readable modern syntax

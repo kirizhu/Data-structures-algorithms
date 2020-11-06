@@ -1,3 +1,4 @@
+//brute force solution
 const hasPairWithSum = (arr1, sum) => {
   for (let i = 0; i < arr1.length; i++) {
     for (let j = i + 1; j < arr1.length; j++) {
@@ -8,7 +9,7 @@ const hasPairWithSum = (arr1, sum) => {
   }
   return false;
 };
-
+//better solution
 const hasPairWithSum2 = (arr1, sum) => {
   let map = new Set();
   for (let i = 0; i < arr1.length; i++) {
