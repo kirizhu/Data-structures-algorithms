@@ -25,9 +25,17 @@
       + for steps in order
       * for nested steps
 - [X]  Rule 4: Drop Non-dominant terms
-  
-## What causes Space complexity?-
+
+## What is good code?
+- [X] Readable
+- [X] Big O Time Complexity (speed)
+- [X] Big O Space Complexity (memory)
+      Heap = Where variables assigned values are stored
+      Stack = Where we keep track of our function calls
+
+## What causes Space complexity?
 - [X]  Variables
 - [X]  Data Structures
 - [X]  Function Call
-- [X]  Allocations */
+- [X]  Allocations 
+
