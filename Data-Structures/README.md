@@ -1,6 +1,11 @@
 # Data Structures
 
+- [X] RAM: Random access memory. Allows us to run programs
+- [X] Storage: Persistent memory. Allows us to store programs
+- [X] CPU: Needs both above mentioned memories but can accsess the RAM a lot faster.
+
 ## Core
+
 - [X] Arrays
 - [X] Hash Tables
 - [X] Stacks
@@ -16,19 +21,23 @@
 - [X] Graphs
 
 ## Resources
+
 - [The Data Structures Handbook](https://www.thedshandbook.com/ "DS Handbook")
 - [Comprehensive List of Data Structures](https://en.wikipedia.org/wiki/List_of_data_structures "Wikipedia: DS List")
 - [Visualizing Data Structures & Algorithms](https://visualgo.net/en)
 
 ### Foundations
+
 - [Arrays vs Linked Lists: Youtube](https://youtu.be/DyG9S9nAlUM)
 - [Linked List: VisuAlgo](https://visualgo.net/en/list)
 
 ### Graphs
+
 - [The Internet Map](https://internet-map.net/)
 - [Graphs: VisuAlgo](https://visualgo.net/en/graphds)
 
 ### Trees
+
 - [Binary Search Tree: VisuAlgo](https://visualgo.net/bn/bst?slide=1)
 - [Binary Heap: VisuAlgo](https://visualgo.net/en/heap)
 - [AVL Tree Visualization](https://www.cs.usfca.edu/~galles/visualization/AVLtree.html)
@@ -37,6 +46,7 @@
 - [Validate a BST: GeeksForGeeks](https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/)
 
 ### Hash Tables
+
 - [MD5 Hash Generator](http://www.miraclesalad.com/webtools/md5.php)
 - [Hash Table Animation](https://www.cs.usfca.edu/~galles/visualization/OpenHash.html)
 - [Hash Table | Wikipedia](https://en.wikipedia.org/wiki/Hash_table)
