@@ -1,16 +1,3 @@
-// Create the below linked list:
-// myLinkedList = {
-//   head: {
-//     value: 10
-//     next: {
-//       value: 5
-//       next: {
-//         value: 16
-//         next: null
-//       }
-//     }
-//   }
-// };
 class Node {
   constructor(value) {
     this.value = value;
@@ -83,9 +70,12 @@ class DoublyLinkedList {
     this.length--;
   }
 }
-//Single vs Double ?
-//Single = Fast insertion and deletion less memory. Cannot be traversed from back to front.
-//Double = Better for searching, can be traversed from both sides. Fairly complex, more memory
-
-//Pros: Fast insertion/deletion, ordered, flexible size
-//Cons: Slow lookup, more memory.
+/**
+ * Single vs Double ?
+ * Single = Fast insertion and deletion less memory. Cannot be traversed from back to front.
+ *
+ * Double = Better for searching, can be traversed from both sides. Fairly complex, more memory
+ *
+ * Pros: Fast insertion/deletion, ordered, flexible size.
+ * Cons: Slow lookup, more memory.
+ */
