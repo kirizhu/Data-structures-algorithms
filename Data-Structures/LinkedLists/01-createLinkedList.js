@@ -1,16 +1,3 @@
-// Create the below linked list:
-// myLinkedList = {
-//   head: {
-//     value: 10
-//     next: {
-//       value: 5
-//       next: {
-//         value: 16
-//         next: null
-//       }
-//     }
-//   }
-// };
 class Node {
   constructor(value) {
     this.value = value;
@@ -102,3 +89,17 @@ myLinkedList.insert(3, 100);
 myLinkedList.insert(4, 101);
 myLinkedList.reverse();
 myLinkedList.printList();
+
+// Create the below linked list:
+// myLinkedList = {
+//   head: {
+//     value: 10
+//     next: {
+//       value: 5
+//       next: {
+//         value: 16
+//         next: null
+//       }
+//     }
+//   }
+// };
